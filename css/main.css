@@ -1680,7 +1680,7 @@
 
 	h3 {
 		font-size: 1.35rem;
-		text-transform: uppercase;
+		
 	}
 
 	h4 {
@@ -4336,4 +4336,18 @@
 				width: calc(100% + 2rem);
 			}
 
+		}
+
+		.image_icon {
+			border: 1px solid #fff;
+			height: 90px;
+			width: 90px;
+			border-radius: 50%;
+			line-height: 9;
+			margin: auto;
+			background: #fff;
+			margin-bottom: 15px;
+		}
+		.image_icon img {
+			width: 55px;
 		}
