@@ -128,6 +128,7 @@
 		.container {
 			width: 65rem;
 		}
+		
 
 	}
 
@@ -2895,7 +2896,7 @@
 
 		.wrapper.style2 {
 			background-color: #f2f2f2;
-			color: #a6a6a6;
+			color: #000;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3058,26 +3059,26 @@
 			}
 
 			.wrapper.style2 ::-moz-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style2 :-ms-input-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style2 .formerize-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style2 ul.alt li {
 				border-top-color: rgba(0, 0, 0, 0.15);
 			}
 
-			.wrapper.style2 header p {
-				color: #999999;
+			.style2 header p {
+				color: #000;
 			}
 
-			.wrapper.style2 table tbody tr {
+			.style2 table tbody tr {
 				border-color: rgba(0, 0, 0, 0.15);
 			}
 
@@ -3200,7 +3201,7 @@
 					.wrapper.style3 input[type="button"].alt.icon:before,
 					.wrapper.style3 button.alt.icon:before,
 					.wrapper.style3 .button.alt.icon:before {
-						color: #999999;
+						color: #000;
 					}
 
 				.wrapper.style3 input[type="submit"].special,
@@ -3279,23 +3280,23 @@
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style3 :-moz-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style3 ::-moz-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style3 :-ms-input-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style3 .formerize-placeholder {
-				color: #999999 !important;
+				color: #000 !important;
 			}
 
 			.wrapper.style3 ul.alt li {
@@ -3303,7 +3304,7 @@
 			}
 
 			.wrapper.style3 header p {
-				color: #999999;
+				color: #000;
 			}
 
 			.wrapper.style3 table tbody tr {
@@ -3359,9 +3360,12 @@
 		@media screen and (max-width: 1280px) {
 
 			.wrapper > .inner {
-				width: 75rem;
+				width: 65rem;
 			}
-
+			.box .content {
+				padding: 1rem;
+				min-height: 220px;;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3779,8 +3783,8 @@
 		}
 
 		#banner p {
-			color: rgba(255, 255, 255, 0.65);
-			font-size: 1.5rem;
+			color: #fff;
+			font-size: 15px;
 			margin-bottom: 3rem;
 		}
 
@@ -3857,11 +3861,7 @@
 
 				#banner br {
 					display: none;
-				}
-
-				#banner .button {
-					width: 100%;
-				}
+            }
 
 		}
 
@@ -4351,3 +4351,101 @@
 		.image_icon img {
 			width: 55px;
 		}
+
+		@media screen and (max-width:1199px){
+			.social-icon a{
+				line-height: 26px;
+			}
+			.style2 header p{
+				min-height: 120px;
+			}
+			#banner h1{
+				font-size: 45px;
+			}
+			#banner h1{margin-bottom: 0px;}
+		} 
+		@media screen and (max-width:991px){
+            #banner{
+			height: 80vh !important;
+			min-height: 80vh;
+
+		}
+            .wrapper {
+                padding: 3rem 0 2rem 0;}
+            #banner h1 {
+    font-size: 36px;
+}
+            .content h2 {
+    font-size: 24px;
+}
+}
+
+@media screen and (max-width:991px){
+
+.style2 header p {
+    min-height: 0;
+}
+    .content p {
+    font-size: 15px;
+    line-height: 20px;
+}
+}
+@media screen and (max-width:640px){
+    
+    #banner {
+    height: 70vh !important;
+    min-height: 70vh;
+}
+    #banner p{
+        margin-bottom:20px;
+    }
+    .footer-content{margin-top: 50px;}
+    .copy-content {
+    display: block;
+    text-align: center;
+}
+    .social-icon {
+    margin-top: 15px;
+}   
+    #banner h1 {
+    font-size: 30px;
+}
+}
+@media screen and (max-width:567px){
+    .footer-content{
+        display: block;
+    }
+    .footer-text i{margin-bottom: 15px;}
+    .content_inner {
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width:480px){
+    #banner h1 {
+    font-size: 25px;
+}
+ #banner a {
+    padding: 10px 15px;
+    font-size: 13px;
+    line-height: 15px;
+    height: 35px;
+}   
+    #banner {
+    height: 55vh !important;
+    min-height: 55vh;
+}
+    #header > .logo a {
+        font-size: 25px;}
+.content h2 {
+    font-size: 18px;
+}
+.content p {
+    font-size: 13px;
+    line-height: 18px;
+}
+    .box .content{
+        min-height: 0;
+        padding: 10px;
+    }
+    .image.fit{margin: 0;}
+}
